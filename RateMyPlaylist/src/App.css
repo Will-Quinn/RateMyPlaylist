@@ -1,0 +1,22 @@
+/* font-family: 'Sono', sans-serif; */
+
+html{
+    background-color: black;
+}
+.heading{
+    font-family: 'Sono', sans-serif;
+    color: white;
+    font-size: xx-large;
+    margin: 1%;
+}
+.heading::after {
+  color: #1ED760;
+  content: 'Playlist.';
+}
+.playerCard{
+    margin: 1%;
+}
+.player{
+border-radius: 12px;
+border: none;
+}
